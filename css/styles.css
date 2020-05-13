@@ -1,0 +1,42 @@
+h1 {
+  font-family: Georgia, Times, "Times new Roman", serif;
+  text-align: center; }
+
+body {
+  background: #f7baa1;
+  width: 640px;
+  margin: 0 auto; }
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 480px; }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+  background-color: rgba(0, 0, 0, 0); }
+
+button {
+  border: 0;
+  background: #f7baa1;
+  border: 1px solid grey;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px; }
+
+.thumb-bar img {
+  display: block;
+  width: 20%;
+  float: left;
+  cursor: pointer; }
+
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent; }
