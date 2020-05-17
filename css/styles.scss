@@ -4,7 +4,9 @@ h1 {
 }
 
 body {
-  background: #f7baa1;
+  background-image: radial-gradient(circle, #f7baa1 75%, #f7a583 25%);
+  background-size: cover;
+  background-attachment: fixed;
   width: 640px;
   margin: 0 auto;
 }
@@ -40,6 +42,7 @@ button {
   width: 20%;
   float: left;
   cursor: pointer;
+  padding-bottom: 30px;
 }
 
 a {
